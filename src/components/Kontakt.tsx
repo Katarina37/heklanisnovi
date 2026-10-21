@@ -1,8 +1,6 @@
 import { useEffect, useState } from 'react'
 import type { FormEvent } from 'react'
 import { MODEL_OPTIONS, SITE } from '../data/site'
-import SlikaProizvoda from './SlikaProizvoda'
-
 export default function Kontakt() {
   const [name, setName] = useState('')
   const [model, setModel] = useState('')
